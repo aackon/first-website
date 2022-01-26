@@ -1,0 +1,92 @@
+/* body{
+    background-color:green;
+    margin-top: 50px;
+}
+
+.logo{
+    background-color: white;
+    border-width: 10px;
+    border-style: solid;
+    border-color: indianred;
+    padding-left: 40px;
+    margin-top:  40px;
+}
+
+img{
+    width: 100px;
+    height: 400px;
+}
+p{
+    font-size: 56px;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+} */
+.nav-bar{
+    display:flex;
+    flex-direction: row;
+}
+.link-container{
+    margin-left: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+}
+a{
+    font-size:10px;
+    transition: 500ms;
+}
+a:hover{
+    font-size: 30px;
+    color: red;
+}
+.animate{
+    height: 60px;
+    width: 200px;
+    background-color: black;
+}
+.animate:hover{
+    width: 300px;
+    background-color: blue;
+}
+button{
+    font-size: 18px;
+    color: black;
+    font-size: 50px;
+    padding: 16px;
+    border-radius: 50px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 500ms;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+button:active{
+    background-color: blue
+}
+p{
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    width:fit-content;
+    background-image: url("./GREEN.jpg");
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    width:100vw;
+    height: 100vh;
+    background-image: url("./GREEN.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
